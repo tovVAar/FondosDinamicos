@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Ripple from './components/Ripple/Ripple';
+import Triangles from './components/Triangles/Triangles';
+import Warning from './components/Warning/Warning';
+import Lines from './components/Lines/Lines';
+import Hielitos from './components/Hielitos/Hielitos';
+import Diagonales from './components/Diagonales/Diagonales';
+import Gradiente from './components/Gradiente/Gradiente';
+import Grid from './components/Grid/Grid';
 
 function App() {
+  //<Ripple/>
+  //Triangles/>
+  //<Warning/> //quedó culero
+  //<Lines/>  //nomas acepta tres lineas
+  //<Hielitos/>
+  //<Diagonales/>
+  //<Gradiente/>
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Grid/>
     </div>
   );
 }
